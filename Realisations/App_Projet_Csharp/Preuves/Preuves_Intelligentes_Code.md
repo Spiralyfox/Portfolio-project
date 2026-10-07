@@ -1,41 +1,19 @@
-﻿# Preuves Intelligentes - Application C# (Gestion Appareils)
+﻿# Preuves - Application de Gestion (C#)
 
-## 1. La persistance des données via Fichier Texte (Logique Métier)
-Dans ce projet, j'ai créé une classe Appareil qui gère elle-même son enregistrement dans le fichier de sauvegarde Appareils.txt.
-J'ai utilisé la syntaxe using (StreamWriter...) pour garantir la fermeture et la libération correcte du fichier après l'écriture.
+## 1. L'Interface Graphique (Conception)
+L'application a été développée avec Windows Forms sous l'environnement JetBrains Rider. Elle permet à l'utilisateur de gérer visuellement les appareils grâce à différents éléments (Boutons, ListBox, ComboBox, TextBox).
 
-`csharp
-// Extrait de Appareil.cs : Sauvegarde des données
-public void Save()
-{
-    // Utilisation d'un chemin relatif vers la pseudo Base de Données
-    using (StreamWriter bd = new StreamWriter(""..\..\..\Appareils.txt"", true))
-    {
-        bd.WriteLine(Id + ""|"" + Name + ""|"" + ItemName + ""|"" + Piece); 
-    }
-}
-`
+![Interface Designer](https://raw.githubusercontent.com/Spiralyfox/Projet_CSharp_BTS_SIO_Application_Gestion/main/Images/Image_1_Screen_du_Designer.png)
+*Aperçu de la création de l'interface en mode "Designer".*
 
-## 2. Interaction avec l'Interface Graphique (Logique Événementielle)
-Dans le code de l'interface Form1.cs, les actions de l'utilisateur (comme le clic sur le bouton de sauvegarde) déclenchent l'instanciation de l'objet et son enregistrement.
+## 2. L'Application en Fonctionnement
+Voici le résultat final une fois l'application lancée. L'utilisateur peut ajouter un appareil (ex: Ordinateur, Télévision) et l'affecter à une pièce. L'application génère automatiquement un ID aléatoire à 6 chiffres pour chaque enregistrement.
 
-`csharp
-// Extrait de Form1.cs : Clic sur le bouton de sauvegarde
-private void buttonsave_Click(object sender, EventArgs e)
-{
-    // Génération d'un id aléatoire à 6 chiffres
-    Random rnd = new Random();
-    int id = rnd.Next(100000, 999999);
+![Application en cours](https://raw.githubusercontent.com/Spiralyfox/Projet_CSharp_BTS_SIO_Application_Gestion/main/Images/Image_2_Application_avec_examples.png)
+*Exemple d'utilisation : ajout et affichage en temps réel dans la liste.*
 
-    // Création de l'instance temporaire depuis les saisies utilisateur (TextBox & ComboBox)
-    Appareil appareil = new Appareil(textBoxName.Text, comboBoxAddName.Text, comboBoxAddPiece.Text, id);
+## 3. Stockage et Persistance des Données
+Pour simuler une base de données de manière simple, l'application lit et écrit dans un fichier texte (Appareils.txt). Les données y sont structurées ligne par ligne, en utilisant le symbole | comme séparateur.
 
-    // Appel de la méthode métier pour enregistrer en base (.txt)
-    appareil.Save();
-
-    // Actualisation de l'interface
-    UpdateList();
-}
-`
-
-Ces extraits démontrent ma capacité à séparer la logique métier (Classe Appareil) de la logique événementielle (Form1), un principe fondamental en développement logiciel.
+![Fichier texte](https://raw.githubusercontent.com/Spiralyfox/Projet_CSharp_BTS_SIO_Application_Gestion/main/Images/Image_3_Interieur_du_txt.png)
+*Aperçu du fichier : on y retrouve bien l'ID, le nom, le type et la pièce pour chaque appareil enregistré.*
