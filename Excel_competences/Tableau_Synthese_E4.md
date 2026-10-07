@@ -2,7 +2,7 @@
 
 Ce tableau reproduit le format du fichier Excel officiel requis pour l'épreuve E4. Il permet de s'assurer que toutes les compétences du référentiel sont couvertes par au moins une réalisation.
 
-| Compétences (SLAM) | Check | 1. GLPI | 2. Stage 2026 | 3. App C# | 4. Bar à Chats | 5. Deltacube | 6. Veille Crypto | 7. Suivis Portfolio |
+| Compétences (SLAM) | Check | 1. GLPI | 2. Stage 2026 | 3. App C# | 4. Bar à Chats | 5. Deltacube | 6. Veille Crypto | 7. Suivi Portfolio Github |
 |-------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **B1.1 Gérer le patrimoine info.** | X | X | | | | | | |
 | **B1.2 Répondre aux incidents** | X | X | | | | | | |
@@ -17,6 +17,7 @@ Ce tableau reproduit le format du fichier Excel officiel requis pour l'épreuve 
 | **B3.2 Préserver identité num.** | | | | | | | | |
 | **B3.3 Sécuriser les équipements** | | | | | | | | |
 | **B3.4 Dispo, Intégrité, Conf.** | X | | | | | | X | |
+
 
 
 
