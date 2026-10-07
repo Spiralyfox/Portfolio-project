@@ -1,4 +1,4 @@
-# Planning de préparation - BTS SIO 2027
+﻿# Planning de préparation - BTS SIO 2027
 
 *(Basé sur l'objectif de tout terminer avant les épreuves de 2027)*
 
@@ -24,4 +24,5 @@
 
 - **Mai / Juin 2027 :**
   - **Épreuve E4** : Présentation orale du Portfolio et des situations professionnelles devant le jury.
+
 
