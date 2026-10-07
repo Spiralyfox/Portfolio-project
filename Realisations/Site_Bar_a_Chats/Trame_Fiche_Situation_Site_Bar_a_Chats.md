@@ -1,51 +1,60 @@
-
-# FICHE DE SITUATION PROFESSIONNELLE — BLOC 1 (ÉPREUVE E4)
+﻿# FICHE DE SITUATION PROFESSIONNELLE (ÉPREUVE E4)
 
 ## 1. IDENTIFICATION GÉNÉRALE
-- **Titre de la réalisation :** [Ex : Déploiement d'un agent de supervision et inventaire GLPI]
-- **Cadre de réalisation :** [ ] Stage 1  [ ] Stage 2  [ ] Atelier de professionnalisation  [ ] Projet de cours
-- **Période de réalisation :** [Mois / Année]
-- **Modalité :** [ ] Individuel  [ ] En équipe (préciser le nombre de collaborateurs)
-- **Localisation / Organisation cliente :** [Nom de l'entreprise d'accueil ou établissement]
+- **Titre de la réalisation :** Développement Web - "Neptune's Cats Bar"
+- **Cadre de réalisation :** [ ] Stage 1  [ ] Stage 2  [ ] Atelier de professionnalisation  [x] Projet de cours
+- **Période de réalisation :** Démarré en Septembre 2025 (Fil rouge de l'année)
+- **Modalité :** [x] Individuel  [ ] En équipe
+- **Localisation / Organisation cliente :** BTS SIO
 
 ## 2. CONTEXTE ET OBJECTIFS
-- **Contexte organisationnel :** Présentation succincte de l'organisation et du système informatique support.
-- **Problématique / Besoin exprimé :** Quel était le problème à résoudre ou le besoin métier à couvrir ?
-- **Objectifs fixés :** Quels résultats attendus devaient être atteints ?
+- **Contexte organisationnel :** Afin de mettre en pratique les notions de développement web abordées en cours tout au long de l'année, il a été demandé de réaliser un site internet fictif pour un bar à thème.
+- **Problématique / Besoin exprimé :** Créer une présence en ligne complète (Front-end et Back-end) pour attirer des clients dans un concept de bar à chats. Le site devait respecter les bonnes pratiques web (SEO, responsivité).
+- **Objectifs fixés :** Livrer un site fonctionnel, design et optimisé en utilisant un ensemble de technologies variées (HTML, JS, PHP, Bootstrap).
 
 ## 3. DÉMARCHE ET ENVIRONNEMENT TECHNIQUE
 - **Environnement technologique mobilisé :**
-  - Systèmes d'exploitation utilisés (ex : Debian 12, Windows Server 2022)
-  - Logiciels, rôles ou paquets installés (ex : GLPI, agent FusionInventory/GLPI, MariaDB, Apache)
-  - Matériels ou éléments d'infrastructure concernés
+  - Langages : HTML5, CSS3, JavaScript, PHP
+  - Framework CSS : Bootstrap
+  - Concept : Optimisation SEO
 - **Démarche suivie étape par étape :**
-  1. Analyse préalable et préparation de la maquette
-  2. Configuration et mise en œuvre technique
-  3. Tests d'acceptation et vérification du bon fonctionnement
-- **Gestion des imprévus / Incidents rencontrés :** Difficultés techniques rencontrées et solutions apportées.
+  1. Conception de l'identité visuelle (Thème : Neptune's Cats Bar) et maquettage.
+  2. Intégration Front-End avec HTML/CSS et Bootstrap pour le rendu responsif.
+  3. Ajout d'interactivité via JavaScript.
+  4. Implémentation de logique serveur et formulaires via PHP.
+  5. Optimisation SEO (Balises méta, sémantique).
+- **Gestion des imprévus / Incidents rencontrés :** Gérer l'adaptation responsive (mobile-first) de certains éléments complexes du design, résolu grâce aux classes utilitaires de Bootstrap.
 
 ## 4. RÔLE ET CONTRIBUTION PERSONNELLE
-*(Particulièrement important si le projet a été mené en équipe)*
-- **Responsabilité précise :** Quelle a été votre mission spécifique ?
-- **Actions menées individuellement :** Quelles configurations ou rédactions avez-vous prises en charge ?
+- **Responsabilité précise :** Développeur Web full-stack du projet.
+- **Actions menées individuellement :** Création complète, de l'intégration graphique au code logique PHP.
 
 ## 5. LIVRABLES ET PREUVES ASSOCIÉES
-*(Éléments vérifiables à intégrer sur le portfolio)*
-- Procédure technique ou document d'exploitation rédigé
-- Schéma d'architecture ou plan d'adressage
-- Extraits de configurations ou scripts commentés
-- Captures d'écran significatives (avec masquage des données sensibles)
-- Cahier de recette ou rapport de tests
+- Captures d'écran du site et de son identité visuelle (Disponibles dans le dossier Preuves/).
+- Code source web (Consultable en ligne via le portfolio principal).
 
-## 6. COMPÉTENCES DU BLOC 1 MOBILISÉES
-- [ ] **B1.1 — Gérer le patrimoine informatique :** [Justification courte]
-- [ ] **B1.2 — Répondre aux incidents et demandes d'assistance :** [Justification courte]
-- [ ] **B1.3 — Développer la présence en ligne :** [Justification courte]
-- [ ] **B1.4 — Travailler en mode projet :** [Justification courte]
-- [ ] **B1.5 — Mettre à disposition des utilisateurs un service informatique :** [Justification courte]
-- [ ] **B1.6 — Organiser son développement professionnel :** [Justification courte]
+## 6. COMPÉTENCES SLAM MOBILISÉES
+
+### Bloc 1 : Support et mise à disposition de services informatiques
+- [ ] **B1.1 Gérer le patrimoine informatique :** 
+- [ ] **B1.2 Répondre aux incidents et demandes d'assistance :** 
+- [x] **B1.3 Développer la présence en ligne :** Création d'un site web vitrine avec intégration SEO et design responsif.
+- [ ] **B1.4 Travailler en mode projet :** 
+- [ ] **B1.5 Mettre à disposition des utilisateurs un service informatique :** 
+- [ ] **B1.6 Organiser son développement professionnel :** 
+
+### Bloc 2 : Conception et développement d'applications (SLAM)
+- [x] **B2.1 Concevoir et développer une solution applicative :** Développement Front-End et Back-End (HTML/JS/PHP).
+- [ ] **B2.2 Assurer la maintenance corrective ou évolutive d'une solution applicative :** 
+- [ ] **B2.3 Gérer les données :** 
+
+### Bloc 3 : Cybersécurité des services informatiques
+- [ ] **B3.1 Protéger les données à caractère personnel :** 
+- [ ] **B3.2 Préserver l'identité numérique de l'organisation :** 
+- [ ] **B3.3 Sécuriser les équipements et les usages des utilisateurs :** 
+- [ ] **B3.4 Garantir la disponibilité, l'intégrité et la confidentialité :** 
 
 ## 7. BILAN RÉFLEXIF ET AUTO-ÉVALUATION
-- **Points forts :** Ce qui a fonctionné de manière fluide et efficace.
-- **Axes d'amélioration :** Ce qui aurait pu être optimisé (sécurité, automatisation, respect du calendrier).
-- **Compétences professionnelles consolidées :** Quels acquis méthodologiques ou techniques retirez-vous de cette mission ?
+- **Points forts :** L'identité visuelle réussie et la prise en main d'un framework CSS (Bootstrap) qui a fait gagner un temps précieux sur le responsive.
+- **Axes d'amélioration :** Le back-end PHP pourrait être approfondi en le reliant à une base de données robuste (MySQL) pour rendre le contenu (ex: cartes du bar, événements) 100% dynamique.
+- **Compétences professionnelles consolidées :** Maîtrise de l'intégration web classique et sensibilisation aux enjeux du référencement naturel (SEO).
