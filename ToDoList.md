@@ -12,9 +12,11 @@
 
 ## 2. Validation du portefeuille BTS
 - [ ] Associer explicitement chaque projet à 1 ou plusieurs compétences du `DashBorad.md`.
+- [ ] Remplir complètement la Trame_Fiche_Situation_Professionnelle.md pour chaque projet final.
 - [ ] Remplir le fichier Excel de synthèse officiel pour associer chaque compétence aux projets.
 - [ ] S'assurer que le portfolio en ligne est 100% à jour (il servira de support direct pour l'oral E4).
 - [ ] Vérifier la couverture de la Cybersécurité (Bloc 3) sur au moins une fiche de stage/projet.
+
 
 
 
