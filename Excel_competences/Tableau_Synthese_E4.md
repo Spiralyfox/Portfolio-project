@@ -4,19 +4,18 @@ Ce tableau reproduit le format du fichier Excel officiel requis pour l'épreuve 
 
 | Compétences (SLAM) | 1. GLPI | 2. Stage 2026 | 3. App C# | 4. Bar à Chats | 5. Deltacube | 6. Veille IA | 7. Portfolio |
 |-------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **B1.1 Gérer le patrimoine info.** | X | | | | | | |
-| **B1.2 Répondre aux incidents** | X | | | | | | |
-| **B1.3 Présence en ligne** | | | | X | X | | |
-| **B1.4 Travailler en mode projet** | | | | | | | X |
-| **B1.5 Mise à disposition service** | X | | X | | | | |
-| **B1.6 Dév. professionnel (Veille)** | | | | | | X | |
-| **B2.1 Dév. solution applicative** | | X | X | X | X | | |
-| **B2.2 Maintenance de solution** | | X | | | X | | |
-| **B2.3 Gérer les données (BDD/Fichiers)** | | X | X | X | X | | |
-| **B3.1 Protéger données persos** | | | | | X | | |
+| **B1.1 Gérer le patrimoine info.** | | | | | | | |
+| **B1.2 Répondre aux incidents** | | | | | | | |
+| **B1.3 Présence en ligne** | | | | | | | |
+| **B1.4 Travailler en mode projet** | | | | | | | |
+| **B1.5 Mise à disposition service** | | | X | | | | |
+| **B1.6 Dév. professionnel (Veille)** | | | | | | | |
+| **B2.1 Dév. solution applicative** | | | X | | | | |
+| **B2.2 Maintenance de solution** | | | | | | | |
+| **B2.3 Gérer les données (BDD/Fichiers)** | | | X | | | | |
+| **B3.1 Protéger données persos** | | | | | | | |
 | **B3.2 Préserver identité num.** | | | | | | | |
 | **B3.3 Sécuriser les équipements** | | | | | | | |
-| **B3.4 Dispo, Intégrité, Conf.** | | | | | | X | |
+| **B3.4 Dispo, Intégrité, Conf.** | | | | | | | |
 
-*(Notes : Ces croix sont données à titre indicatif selon les projets identifiés. Il faudra les valider/ajuster pour s'assurer que toute la grille est cochée au moins une fois).*
-
+*(Notes : Ces croix sont données à titre indicatif et se rempliront au fur et à mesure que nous validerons ensemble les projets).*
