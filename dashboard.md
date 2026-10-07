@@ -1,4 +1,4 @@
-# 📋 Tableau de Bord d'Acquisition des Savoirs (Bloc 1 — Épreuve E4)
+﻿# 📋 Tableau de Bord d'Acquisition des Savoirs (Bloc 1 — Épreuve E4)
 
 Ce document assure la traçabilité de votre montée en compétences sur le **Bloc 1 : Support et mise à disposition de services informatiques** (Unité U4).
 
@@ -120,5 +120,6 @@ Ce document assure la traçabilité de votre montée en compétences sur le **Bl
 - [ ] B3.1 : Protéger les données à caractère personnel
 - [ ] B3.2 : Préserver l'identité numérique de l'organisation
 - [ ] B3.3 : Sécuriser les équipements et les usages des utilisateurs
-- [ ] B3.4 : Garantir la disponibilité, l'intégrité et la confidentialité (ex: *Veille Crypto*)
+- [ ] B3.4 : Garantir la disponibilité, l'intégrité et la confidentialité (ex: *Veille IA*)
+
 
