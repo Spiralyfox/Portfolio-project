@@ -18,5 +18,3 @@ Ce tableau reproduit le format du fichier Excel officiel requis pour l'épreuve 
 | **B3.3 Sécuriser les équipements** | | | | | | | |
 | **B3.4 Dispo, Intégrité, Conf.** | | | | | | X | |
 
-*(Notes : Ces croix sont données à titre indicatif et se rempliront au fur et à mesure que nous validerons ensemble les projets).*
-
