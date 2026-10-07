@@ -15,3 +15,4 @@
 - [ ] Remplir complètement la `Trame_Fiche_Situation_Professionnelle.md` pour chaque projet final.
 - [ ] Préparer le diaporama de présentation pour l'oral (Épreuve E4).
 - [ ] Vérifier la couverture de la Cybersécurité (Bloc 3) sur au moins une fiche de stage/projet.
+
