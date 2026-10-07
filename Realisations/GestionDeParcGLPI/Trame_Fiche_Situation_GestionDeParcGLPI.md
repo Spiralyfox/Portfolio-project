@@ -1,51 +1,58 @@
-
-# FICHE DE SITUATION PROFESSIONNELLE — BLOC 1 (ÉPREUVE E4)
+﻿# FICHE DE SITUATION PROFESSIONNELLE (ÉPREUVE E4)
 
 ## 1. IDENTIFICATION GÉNÉRALE
-- **Titre de la réalisation :** [Ex : Déploiement d'un agent de supervision et inventaire GLPI]
-- **Cadre de réalisation :** [ ] Stage 1  [ ] Stage 2  [ ] Atelier de professionnalisation  [ ] Projet de cours
-- **Période de réalisation :** [Mois / Année]
-- **Modalité :** [ ] Individuel  [ ] En équipe (préciser le nombre de collaborateurs)
-- **Localisation / Organisation cliente :** [Nom de l'entreprise d'accueil ou établissement]
+- **Titre de la réalisation :** Déploiement, Inventaire et Support via GLPI
+- **Cadre de réalisation :** [ ] Stage 1  [ ] Stage 2  [ ] Atelier de professionnalisation  [x] Projet de cours
+- **Période de réalisation :** Décembre 2025 (Semestre 1 - BTS SIO)
+- **Modalité :** [x] Individuel  [ ] En équipe
+- **Localisation / Organisation cliente :** BTS SIO
 
 ## 2. CONTEXTE ET OBJECTIFS
-- **Contexte organisationnel :** Présentation succincte de l'organisation et du système informatique support.
-- **Problématique / Besoin exprimé :** Quel était le problème à résoudre ou le besoin métier à couvrir ?
-- **Objectifs fixés :** Quels résultats attendus devaient être atteints ?
+- **Contexte organisationnel :** La gestion du patrimoine informatique et l'assistance aux utilisateurs sont les piliers des services informatiques (Bloc 1). 
+- **Problématique / Besoin exprimé :** Comment recenser efficacement un parc informatique de plus de 200 machines et gérer les demandes d'assistance des utilisateurs de manière centralisée et tracée ?
+- **Objectifs fixés :** Prendre en main la solution open source GLPI pour réaliser un inventaire (manuel puis automatisé via agent) et paramétrer un module complet d'assistance (Helpdesk).
 
 ## 3. DÉMARCHE ET ENVIRONNEMENT TECHNIQUE
 - **Environnement technologique mobilisé :**
-  - Systèmes d'exploitation utilisés (ex : Debian 12, Windows Server 2022)
-  - Logiciels, rôles ou paquets installés (ex : GLPI, agent FusionInventory/GLPI, MariaDB, Apache)
-  - Matériels ou éléments d'infrastructure concernés
+  - Application : GLPI (Gestionnaire Libre de Parc Informatique)
+  - Modules : Agent GLPI (Remontée automatique), Helpdesk (Ticketing)
 - **Démarche suivie étape par étape :**
-  1. Analyse préalable et préparation de la maquette
-  2. Configuration et mise en œuvre technique
-  3. Tests d'acceptation et vérification du bon fonctionnement
-- **Gestion des imprévus / Incidents rencontrés :** Difficultés techniques rencontrées et solutions apportées.
+  1. Paramétrage initial : Création des lieux, statuts, et fabricants.
+  2. Inventaire : Saisie manuelle de matériels avec plan de nommage, suivie du déploiement de l'Agent GLPI pour automatiser la remontée logicielle et matérielle.
+  3. Paramétrage logiciel : Gestion des licences et règles de dictionnaires pour filtrer les remontées.
+  4. Centre de services : Création d'utilisateurs avec des profils adaptés (Technicien, Observateur, Self-Service) et simulation de résolution d'incidents via l'outil de ticketing.
+- **Gestion des imprévus / Incidents rencontrés :** Le "bruit" généré par la remontée automatique des logiciels (nombreux composants Windows inutiles à inventorier) a été résolu en appliquant des règles d'exclusion dans le dictionnaire GLPI.
 
 ## 4. RÔLE ET CONTRIBUTION PERSONNELLE
-*(Particulièrement important si le projet a été mené en équipe)*
-- **Responsabilité précise :** Quelle a été votre mission spécifique ?
-- **Actions menées individuellement :** Quelles configurations ou rédactions avez-vous prises en charge ?
+- **Responsabilité précise :** Administrateur du système GLPI lors de l'exercice.
+- **Actions menées individuellement :** Configuration complète des entités, déploiement simulé de l'agent, et endossement de tous les rôles lors des scénarios de ticketing.
 
 ## 5. LIVRABLES ET PREUVES ASSOCIÉES
-*(Éléments vérifiables à intégrer sur le portfolio)*
-- Procédure technique ou document d'exploitation rédigé
-- Schéma d'architecture ou plan d'adressage
-- Extraits de configurations ou scripts commentés
-- Captures d'écran significatives (avec masquage des données sensibles)
-- Cahier de recette ou rapport de tests
+- Comptes-rendus des Travaux Pratiques (TP1 à TP3) résumés dans le dossier Preuves/.
+- Capture d'écran de l'interface et page de présentation complète sur mon portfolio web.
 
-## 6. COMPÉTENCES DU BLOC 1 MOBILISÉES
-- [ ] **B1.1 — Gérer le patrimoine informatique :** [Justification courte]
-- [ ] **B1.2 — Répondre aux incidents et demandes d'assistance :** [Justification courte]
-- [ ] **B1.3 — Développer la présence en ligne :** [Justification courte]
-- [ ] **B1.4 — Travailler en mode projet :** [Justification courte]
-- [ ] **B1.5 — Mettre à disposition des utilisateurs un service informatique :** [Justification courte]
-- [ ] **B1.6 — Organiser son développement professionnel :** [Justification courte]
+## 6. COMPÉTENCES SLAM MOBILISÉES
+
+### Bloc 1 : Support et mise à disposition de services informatiques
+- [x] **B1.1 Gérer le patrimoine informatique :** Recensement des postes, gestion des licences logicielles, et déploiement de l'inventaire automatisé (Agent).
+- [x] **B1.2 Répondre aux incidents et demandes d'assistance :** Traitement de tickets d'incident, priorisation et communication avec les utilisateurs simulés.
+- [ ] **B1.3 Développer la présence en ligne :** 
+- [ ] **B1.4 Travailler en mode projet :** 
+- [x] **B1.5 Mettre à disposition des utilisateurs un service informatique :** Mise en place et configuration du portail Helpdesk (Self-Service) pour la déclaration des incidents.
+- [ ] **B1.6 Organiser son développement professionnel :** 
+
+### Bloc 2 : Conception et développement d'applications (SLAM)
+- [ ] **B2.1 Concevoir et développer une solution applicative :** 
+- [ ] **B2.2 Assurer la maintenance corrective ou évolutive d'une solution applicative :** 
+- [ ] **B2.3 Gérer les données :** 
+
+### Bloc 3 : Cybersécurité des services informatiques
+- [ ] **B3.1 Protéger les données à caractère personnel :** 
+- [ ] **B3.2 Préserver l'identité numérique de l'organisation :** 
+- [ ] **B3.3 Sécuriser les équipements et les usages des utilisateurs :** 
+- [ ] **B3.4 Garantir la disponibilité, l'intégrité et la confidentialité :** 
 
 ## 7. BILAN RÉFLEXIF ET AUTO-ÉVALUATION
-- **Points forts :** Ce qui a fonctionné de manière fluide et efficace.
-- **Axes d'amélioration :** Ce qui aurait pu être optimisé (sécurité, automatisation, respect du calendrier).
-- **Compétences professionnelles consolidées :** Quels acquis méthodologiques ou techniques retirez-vous de cette mission ?
+- **Points forts :** La transition réussie entre un inventaire manuel lourd et un inventaire automatisé par agent, démontrant l'intérêt de l'outil pour les grandes infrastructures.
+- **Axes d'amélioration :** Le projet est resté au stade de l'exercice. Une vraie implémentation sur un réseau d'entreprise permettrait d'approfondir le déploiement de l'agent par GPO.
+- **Compétences professionnelles consolidées :** Assimilation parfaite du processus de ticketing (ITIL) et de la rigueur nécessaire dans la gestion des actifs logiciels (conformité des licences).
