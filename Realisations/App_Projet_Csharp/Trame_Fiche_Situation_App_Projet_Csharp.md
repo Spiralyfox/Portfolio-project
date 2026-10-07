@@ -43,7 +43,7 @@
 - [ ] **B1.2 Répondre aux incidents et demandes d'assistance :** 
 - [ ] **B1.3 Développer la présence en ligne :** 
 - [ ] **B1.4 Travailler en mode projet :** 
-- [ ] **B1.5 Mettre à disposition des utilisateurs un service informatique :** 
+- [x] **B1.5 Mettre à disposition des utilisateurs un service informatique :** Mise à disposition de l'exécutable de l'application (approche professionnelle). 
 - [ ] **B1.6 Organiser son développement professionnel :** 
 
 ### Bloc 2 : Conception et développement d'applications (SLAM)
@@ -61,3 +61,4 @@
 - **Points forts :** Séparation nette entre le code de l'interface (Form) et le code métier (Classe).
 - **Axes d'amélioration :** Manque d'une vérification d'unicité sur les ID générés aléatoirement et d'un tri sur la ListBox de l'interface. SGBD type MySQL ou SQLite préférable à un fichier .txt.
 - **Compétences professionnelles consolidées :** Assimilation des fondamentaux de la POO en C#, gestion événementielle d'une application de bureau.
+

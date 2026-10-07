@@ -8,7 +8,7 @@ Ce tableau reproduit le format du fichier Excel officiel requis pour l'épreuve 
 | **B1.2 Répondre aux incidents** | X | | | | | | |
 | **B1.3 Présence en ligne** | | | | X | X | | |
 | **B1.4 Travailler en mode projet** | | | | | | | X |
-| **B1.5 Mise à disposition service** | X | | | | | | |
+| **B1.5 Mise à disposition service** | X | | X | | | | |
 | **B1.6 Dév. professionnel (Veille)** | | | | | | X | |
 | **B2.1 Dév. solution applicative** | | X | X | X | X | | |
 | **B2.2 Maintenance de solution** | | X | | | X | | |
@@ -19,3 +19,4 @@ Ce tableau reproduit le format du fichier Excel officiel requis pour l'épreuve 
 | **B3.4 Dispo, Intégrité, Conf.** | | | | | | X | |
 
 *(Notes : Ces croix sont données à titre indicatif selon les projets identifiés. Il faudra les valider/ajuster pour s'assurer que toute la grille est cochée au moins une fois).*
+
