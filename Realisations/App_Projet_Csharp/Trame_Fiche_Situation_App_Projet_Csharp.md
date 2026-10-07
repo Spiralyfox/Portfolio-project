@@ -3,7 +3,7 @@
 ## 1. IDENTIFICATION GÉNÉRALE
 - **Titre de la réalisation :** Neptune's Device Manager (Application de Gestion C#)
 - **Cadre de réalisation :** [ ] Stage 1  [ ] Stage 2  [ ] Atelier de professionnalisation  [x] Projet de cours
-- **Période de réalisation :** [À compléter]
+- **Période de réalisation :** Avril 2026
 - **Modalité :** [x] Individuel  [ ] En équipe (préciser le nombre de collaborateurs)
 - **Localisation / Organisation cliente :** Deltacube / Projet de formation BTS SIO
 
@@ -23,7 +23,7 @@
   2. Programmation Orientée Objet : Création de la classe Appareil avec ses attributs et méthodes de persistance (Save(), GetAll()).
   3. Liaisons événementielles : Développement du code behind (Form1.cs) pour lier les boutons aux actions métiers.
   4. Tests de validation des données dans le fichier Appareils.txt.
-- **Gestion des imprévus / Incidents rencontrés :** [À compléter, ex: difficulté avec la lecture des lignes vides ou formatage des TextBox]
+- **Gestion des imprévus / Incidents rencontrés :** Aucune difficulté technique majeure rencontrée. Le développement s'est déroulé de manière fluide, permettant d'appliquer directement les concepts fondamentaux (POO et gestion de fichiers) vus en cours.
 
 ## 4. RÔLE ET CONTRIBUTION PERSONNELLE
 - **Responsabilité précise :** Développeur full-stack du projet (Conception globale, dev C#, tests).
@@ -61,4 +61,5 @@
 - **Points forts :** Séparation nette entre le code de l'interface (Form) et le code métier (Classe).
 - **Axes d'amélioration :** Manque d'une vérification d'unicité sur les ID générés aléatoirement et d'un tri sur la ListBox de l'interface. SGBD type MySQL ou SQLite préférable à un fichier .txt.
 - **Compétences professionnelles consolidées :** Assimilation des fondamentaux de la POO en C#, gestion événementielle d'une application de bureau.
+
 
